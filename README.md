@@ -7,13 +7,11 @@
 
 ## Overview
 
-The model evaluates how parallel interest rate shocks affect:
+The model evaluates how interest rate shocks affect:
 - Net Interest Income (NII)
 - Cash position after liquidity stress
 - A simplified Liquidity Coverage–style metric
-
-It is built as an input-driven Excel model with transparent assumptions and scenario-based outputs.
-
+  
 ---
 
 ## Model Structure
