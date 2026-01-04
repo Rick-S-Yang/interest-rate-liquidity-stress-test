@@ -1,37 +1,127 @@
-# Interest Rate Sensitivity & Liquidity Stress Test 
+# Interest Rate Sensitivity & Liquidity Stress Test
 
-A simplified, input-driven Excel model that evaluates **interest rate shocks** on **Net Interest Income (NII)** and provides a **basic liquidity stress view** (e.g., simplified LCR-style coverage) under multiple scenarios.
+This project presents a simplified asset–liability and liquidity stress testing model designed to evaluate the impact of interest rate shocks on net interest income (NII) and short-term liquidity position.  
+The model is intended for educational and analytical demonstration purposes, aligned with entry-level risk, treasury, and financial analyst workflows.
 
-## What’s included
-- **Inputs**: key balance sheet items, rates, and stress assumptions  
-- **Model**: interest income/expense logic and scenario calculations  
-- **Results**: scenario comparison outputs (Base / Up / Down)
+---
+
+## Overview
+
+The model evaluates how parallel interest rate shocks affect:
+- Net Interest Income (NII)
+- Cash position after liquidity stress
+- A simplified Liquidity Coverage–style metric
+
+It is built as an input-driven Excel model with transparent assumptions and scenario-based outputs.
+
+---
+
+## Model Structure
+
+The Excel file is organized into three sections:
+
+- **Inputs**
+  - Simplified balance sheet (assets and liabilities)
+  - Interest rate assumptions
+  - Liquidity stress parameters
+- **Model**
+  - Interest income and expense calculations
+  - Net interest income (NII)
+  - Cash inflow and outflow under stress assumptions
+- **Results**
+  - Scenario comparison of NII
+  - Cash position after stress
+  - Simplified liquidity coverage metric
+
+---
 
 ## Scenarios
-- **Base**
-- **Up**: +100 bps parallel rate shock
-- **Down**: −100 bps parallel rate shock
 
-## Key outputs
-- Net Interest Income (NII) by scenario  
-- Cash impact under stress assumptions  
-- Simplified liquidity coverage metric (LCR)
+The model evaluates three parallel interest rate scenarios:
 
-## Assumptions & scope
-- Liquidity runoff assumptions are **held constant across scenarios** to isolate interest rate sensitivity.  
-- This file is designed as a **simplified analytical framework**, not a full Asset–Liability Management (ALM) system.
+- **Base Case**
+- **+100 bps Rate Shock**
+- **−100 bps Rate Shock**
 
-## Content Preview
+All calculations are dynamically linked to the input assumptions, allowing users to easily modify scenarios and observe results.
 
-![Inputs and assumptions](images/Inputs.png)
+---
 
-![Model structure](images/Model.png)
+## Key Outputs
 
-![Scenario results](images/Results.png)
+- Net Interest Income by scenario
+- Cash balance after liquidity stress
+- Simplified liquidity coverage indicator
+- Comparative scenario table for quick interpretation
 
+---
 
-## Notes / future improvements (optional)
-- Link liquidity assumptions to rate scenarios (rollover constraints, haircuts)
-- Add model controls (balance checks, error flags)
-- Extend shocks beyond ±100 bps (sensitivity table)
+## Quick Start (How to Use)
+
+1. Open `Interest_Rate_Sensitivity_and_Liquidity_Stress_Test.xlsx`
+2. Navigate to the **Inputs** sheet
+3. Adjust key assumptions, including:
+   - Asset and liability balances
+   - Fixed vs. floating interest rates
+   - Liquidity inflow and outflow assumptions
+4. Review updated results in the **Results** sheet
+5. Compare outcomes across interest rate scenarios
+
+No macros or external dependencies are required.
+
+---
+
+## Key Assumptions & Scope
+
+**In scope:**
+- Parallel interest rate shocks
+- Simplified repricing of fixed and floating instruments
+- Basic liquidity stress logic using assumed inflows and outflows
+
+**Out of scope:**
+- Non-parallel yield curve movements
+- Behavioral modeling of deposits
+- Basis risk and optionality
+- Second-round macroeconomic effects
+
+The model is intentionally simplified to emphasize clarity, transparency, and analytical reasoning rather than full-scale ALM system complexity.
+
+---
+
+## Model Controls & Limitations
+
+- The model relies on static assumptions and does not simulate dynamic balance sheet adjustments
+- Liquidity metrics are simplified proxies and should not be interpreted as regulatory LCR
+- Results are sensitive to input assumptions and intended for directional analysis only
+
+---
+
+## Preview
+
+Screenshots of the Inputs, Model, and Results sheets are included above to illustrate structure and outputs.
+
+---
+
+## Future Improvements
+
+Potential extensions include:
+- Non-parallel interest rate scenarios
+- Duration and economic value of equity (EVE) sensitivity
+- More granular liquidity runoff assumptions
+- Visualization enhancements and automated scenario tables
+
+---
+
+## Tools & Skills Demonstrated
+
+- Excel-based financial modeling
+- Scenario and sensitivity analysis
+- Interest rate risk and liquidity risk concepts
+- Structured model documentation and controls
+
+---
+
+## Disclaimer
+
+This project is for educational and portfolio demonstration purposes only and does not represent a production-level risk management system.
 
