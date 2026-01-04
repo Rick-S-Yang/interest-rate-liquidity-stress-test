@@ -15,7 +15,7 @@ A simplified, input-driven Excel model that evaluates **interest rate shocks** o
 ## Key outputs
 - Net Interest Income (NII) by scenario  
 - Cash impact under stress assumptions  
-- Simplified liquidity coverage metric (LCR-style)
+- Simplified liquidity coverage metric (LCR)
 
 ## Assumptions & scope
 - Liquidity runoff assumptions are **held constant across scenarios** to isolate interest rate sensitivity.  
