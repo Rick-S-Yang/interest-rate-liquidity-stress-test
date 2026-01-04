@@ -21,14 +21,6 @@ A simplified, input-driven Excel model that evaluates **interest rate shocks** o
 - Liquidity runoff assumptions are **held constant across scenarios** to isolate interest rate sensitivity.  
 - This file is designed as a **simplified analytical framework**, not a full Asset–Liability Management (ALM) system.
 
-## How to use
-1. Open the Excel file: `Interest_Rate_Sensitivity_and_Liquidity_Stress_Test.xlsx`
-2. Go to the **Inputs** tab and adjust assumptions (rates, balances, stress parameters)
-3. Review **Results** for scenario comparisons
-
-## File structure
-- `/Interest_Rate_Sensitivity_and_Liquidity_Stress_Test.xlsx` — main model
-
 ## Notes / future improvements (optional)
 - Link liquidity assumptions to rate scenarios (rollover constraints, haircuts)
 - Add model controls (balance checks, error flags)
