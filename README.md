@@ -1,7 +1,7 @@
 # Interest Rate Sensitivity & Liquidity Stress Test
 
-This project presents a simplified asset–liability and liquidity stress testing model designed to evaluate the impact of interest rate shocks on net interest income (NII) and short-term liquidity position.  
-The model is intended for educational and analytical demonstration purposes, aligned with entry-level risk, treasury, and financial analyst workflows.
+- This project presents a simplified asset–liability and liquidity stress testing model designed to evaluate the impact of interest rate shocks on net interest income (NII) and short-term liquidity position.  
+- The model is intended for educational and analytical demonstration purposes, aligned with entry-level risk, treasury, and financial analyst workflows.
 
 ---
 
