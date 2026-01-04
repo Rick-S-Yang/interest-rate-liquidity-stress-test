@@ -41,8 +41,6 @@ The model evaluates three parallel interest rate scenarios:
 - **+100 bps Rate Shock**
 - **−100 bps Rate Shock**
 
-All calculations are dynamically linked to the input assumptions, allowing users to easily modify scenarios and observe results.
-
 ---
 
 ## Key Outputs
@@ -50,47 +48,13 @@ All calculations are dynamically linked to the input assumptions, allowing users
 - Net Interest Income by scenario
 - Cash balance after liquidity stress
 - Simplified liquidity coverage indicator
-- Comparative scenario table for quick interpretation
-
----
-
-## Quick Start (How to Use)
-
-1. Open `Interest_Rate_Sensitivity_and_Liquidity_Stress_Test.xlsx`
-2. Navigate to the **Inputs** sheet
-3. Adjust key assumptions, including:
-   - Asset and liability balances
-   - Fixed vs. floating interest rates
-   - Liquidity inflow and outflow assumptions
-4. Review updated results in the **Results** sheet
-5. Compare outcomes across interest rate scenarios
-
-No macros or external dependencies are required.
+- Comparative scenario table for quick interpretation.
 
 ---
 
 ## Key Assumptions & Scope
 
-**In scope:**
-- Parallel interest rate shocks
-- Simplified repricing of fixed and floating instruments
-- Basic liquidity stress logic using assumed inflows and outflows
-
-**Out of scope:**
-- Non-parallel yield curve movements
-- Behavioral modeling of deposits
-- Basis risk and optionality
-- Second-round macroeconomic effects
-
-The model is intentionally simplified to emphasize clarity, transparency, and analytical reasoning rather than full-scale ALM system complexity.
-
----
-
-## Model Controls & Limitations
-
-- The model relies on static assumptions and does not simulate dynamic balance sheet adjustments
-- Liquidity metrics are simplified proxies and should not be interpreted as regulatory LCR
-- Results are sensitive to input assumptions and intended for directional analysis only
+For simplicity, Liquidity runoff assumptions are held constant across scenarios to isolate interest rate effects. In practice, liquidity and rate shocks can be linked, but I wanted to focus on core rate sensitivity..
 
 ---
 
@@ -100,26 +64,5 @@ Screenshots of the Inputs, Model, and Results sheets are included above to illus
 
 ---
 
-## Future Improvements
 
-Potential extensions include:
-- Non-parallel interest rate scenarios
-- Duration and economic value of equity (EVE) sensitivity
-- More granular liquidity runoff assumptions
-- Visualization enhancements and automated scenario tables
-
----
-
-## Tools & Skills Demonstrated
-
-- Excel-based financial modeling
-- Scenario and sensitivity analysis
-- Interest rate risk and liquidity risk concepts
-- Structured model documentation and controls
-
----
-
-## Disclaimer
-
-This project is for educational and portfolio demonstration purposes only and does not represent a production-level risk management system.
 
