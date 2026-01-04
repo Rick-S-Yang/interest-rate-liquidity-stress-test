@@ -23,11 +23,11 @@ A simplified, input-driven Excel model that evaluates **interest rate shocks** o
 
 ## Content Preview
 
-![Inputs and assumptions](images/inputs.png)
+![Inputs and assumptions](images/Inputs.png)
 
-![Model structure](images/model.png)
+![Model structure](images/Model.png)
 
-![Scenario results](images/results.png)
+![Scenario results](images/Results.png)
 
 
 ## Notes / future improvements (optional)
