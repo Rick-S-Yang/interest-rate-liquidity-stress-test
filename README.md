@@ -21,6 +21,15 @@ A simplified, input-driven Excel model that evaluates **interest rate shocks** o
 - Liquidity runoff assumptions are **held constant across scenarios** to isolate interest rate sensitivity.  
 - This file is designed as a **simplified analytical framework**, not a full Asset–Liability Management (ALM) system.
 
+## Content Preview
+
+![Inputs and assumptions](images/inputs.png)
+
+![Model structure](images/model.png)
+
+![Scenario results](images/results.png)
+
+
 ## Notes / future improvements (optional)
 - Link liquidity assumptions to rate scenarios (rollover constraints, haircuts)
 - Add model controls (balance checks, error flags)
