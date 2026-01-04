@@ -26,5 +26,3 @@ A simplified, input-driven Excel model that evaluates **interest rate shocks** o
 - Add model controls (balance checks, error flags)
 - Extend shocks beyond ±100 bps (sensitivity table)
 
-## Author
-Rick Yang
