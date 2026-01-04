@@ -74,6 +74,8 @@ For simplicity, Liquidity runoff assumptions are held constant across scenarios 
 - Under +/-100bps, NII increases/decreases by 20000 or 9.76% due to the re-pricing gap between variable-rate assets and short-term funding.
 - Liquidity stress test shows 30-day cash position remains positive given assumed runoff rates.
 - Identified key exposure drivers: proportion of variable-rate loans, short-term debt reliance, and initial cash buffer.
+-Liquidity runoff and inflow assumptions are held constant across scenarios to isolate interest rate sensitivity on net interest income. As a result, liquidity metrics do not vary by rate scenario and are intended to illustrate model structure rather than dynamic funding stress behavior.
+
 
 
 
