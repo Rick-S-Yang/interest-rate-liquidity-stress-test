@@ -1,4 +1,4 @@
-# Interest Rate Sensitivity & Liquidity Stress Test (Excel)
+# Interest Rate Sensitivity & Liquidity Stress Test 
 
 A simplified, input-driven Excel model that evaluates **interest rate shocks** on **Net Interest Income (NII)** and provides a **basic liquidity stress view** (e.g., simplified LCR-style coverage) under multiple scenarios.
 
